@@ -9,6 +9,7 @@ import {
 import numeral from 'numeral';
 import Change from './change';
 
+
 // Get screen width
 const { width } = Dimensions.get('window');
 

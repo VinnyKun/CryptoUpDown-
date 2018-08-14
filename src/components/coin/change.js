@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     minHeight: 16,
   },
   good: { backgroundColor: '#4CAF50' },
-  bad: { backgroundColor: '#FF5505' },
+  bad: { backgroundColor: '#f76291' },
   same: { backgroundColor: '#F5A623' },
   value: {
     color: '#FFFFFF',

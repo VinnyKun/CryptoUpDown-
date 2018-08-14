@@ -23,8 +23,8 @@ export default class Line extends Component {
   };
 
   static defaultProps = {
-    fillColor: 'rgba(103, 58, 183, 1)',       // solid violet color
-    strokeColor: 'rgba(103, 58, 183, 0.25)',  // semi-transparent violet
+    fillColor: 'rgba(89, 214, 255, 1)',       // solid violet color
+    strokeColor: 'rgba(89, 214, 255, 0.25)',  // semi-transparent violet
     strokeWidth: 8,
   };
 

@@ -9,6 +9,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { updatePrices, selectCoin } from '../redux/coins';
 import Coin from '../components/coin/coin';
+import Add from '../components/coin/add';
 
 @connect(
   (state) => {
@@ -41,6 +42,7 @@ export default class List extends Component {
       loading,
       selectCoin,
       updatePrices,
+      onAddCoin,
     } = this.props;
     return (
       <View style={styles.container}>
@@ -75,6 +77,7 @@ export default class List extends Component {
               key={index}
             />;
           })}
+          <Add onPress={onAddCoin} />
         </ScrollView>
       </View>
     );
@@ -85,7 +88,7 @@ export default class List extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 62,                   // take 62% of the screen height
-    backgroundColor: '#673AB7',
+    backgroundColor: '#59d6ff',
   },
   list: {
     flexDirection: 'row',       // arrange coins in rows
