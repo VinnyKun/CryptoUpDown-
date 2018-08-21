@@ -40,8 +40,8 @@ const styles = StyleSheet.create({
     padding: 15,
   },
   text: {
-    color: 'rgba(255,255,255,0.5)',
-    fontFamily: 'normal',
+    color: 'rgba(255,255,255,0.85)',
+    // fontFamily: 'Verdana',
     fontSize: 12,
   },
   active: {

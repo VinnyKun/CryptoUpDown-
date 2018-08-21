@@ -1,3 +1,4 @@
+// a helper function to help make API calls.
 const API = 'https://min-api.cryptocompare.com';
 
 const headers = {

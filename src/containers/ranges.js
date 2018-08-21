@@ -45,7 +45,7 @@ export default class Ranges extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#59d6ff',
+    backgroundColor: 'rgba(21, 36, 85, 1)',
     borderWidth: 0.2,
     borderColor: 'white',
   },

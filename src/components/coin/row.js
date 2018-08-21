@@ -51,18 +51,20 @@ export default class Row extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    borderBottomColor: 'rgba(255,255,255,0.25)',
+    borderBottomColor: 'rgba(255,255,255,0.75)',
     borderBottomWidth: StyleSheet.hairlineWidth,
+    borderTopColor: 'rgba(255,255,255,0.75)',
+    borderTopWidth: StyleSheet.hairlineWidth,
     padding: 10,
   },
   text: {
     color: '#FFFFFF',
-    fontFamily: 'normal',
+    // fontFamily: 'Verdana',
     fontSize: 16,
     fontWeight: '500',
   },
   name: {
-    color: 'rgba(255,255,255,0.5)',
+    color: 'rgba(255,255,255,0.85)',
     fontSize: 12,
     fontWeight: '300',
   },

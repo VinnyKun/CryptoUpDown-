@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: '#FFFFFF',
-    fontFamily: 'normal',
+    // fontFamily: 'Verdana',
     fontSize: 16,
   },
 });

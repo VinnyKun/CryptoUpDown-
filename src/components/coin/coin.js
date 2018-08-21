@@ -90,12 +90,12 @@ const styles = StyleSheet.create({
   },
   text: {
     color: '#FFFFFF',
-    fontFamily: 'normal',
+    // fontFamily: 'Verdana',
     fontSize: 16,
     fontWeight: '500',
   },
   name: {
-    color: 'rgba(255,255,255,0.5)',
+    color: 'rgba(255,255,255,0.85)',
     fontSize: 12,
     fontWeight: '300',
   },

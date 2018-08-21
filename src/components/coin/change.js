@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   same: { backgroundColor: '#F5A623' },
   value: {
     color: '#FFFFFF',
-    fontFamily: 'normal',
+    // fontFamily: 'Verdana',
     fontSize: 11,
     marginTop: 0,
   },
