@@ -1,5 +1,10 @@
 {
   "expo": {
-    "sdkVersion": "27.0.0"
+    "sdkVersion": "27.0.0",
+    "name": "CryptoUpDown?",
+    "slug": "cryptoupdown",
+    "version": "0.1.0",
+    "description": "",
+    "githubUrl": "https://github.com/VinnyKun/CryptoUpDown-"
   }
 }

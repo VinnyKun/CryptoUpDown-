@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 20, // put content below status bar
     // backgroundColor: 'white',
-    backgroundColor: '#59d6ff',
+    backgroundColor: 'rgba(21, 36, 85, 1)',
   },
   button: {
     margin: 10,
